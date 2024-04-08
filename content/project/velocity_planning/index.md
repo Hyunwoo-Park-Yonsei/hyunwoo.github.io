@@ -1,5 +1,5 @@
 ---
-title: A jerk-minimized velocity planning module using a spatial-temporal map for autonomous vehicles.
+title: A jerk-minimized path planning module for autonomous vehicle.
 summary: 
 tags:
   - Autonomous Driving
@@ -9,8 +9,8 @@ date: "2020-11-11T00:00:00Z"
 # external_link: https://example.org
 
 image:
-  caption: Velocity Planning
+  caption: Path Planning
   focal_point: Smart
 
-url_video: 'https://youtu.be/G7o131F5coo'
+url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 ---
