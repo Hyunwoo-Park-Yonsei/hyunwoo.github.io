@@ -105,5 +105,5 @@ social:
 highlight_name: true
 ---
 
-Jongseo Choi received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. Since 2022, he has been  with ThorDrive Co., Ltd, Seoul, South Korea, as a researcher working on motion planning for autonomous driving. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
+Hyunwoo Park received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. Since 2022, he has been  with ThorDrive Co., Ltd, Seoul, South Korea, as a researcher working on motion planning for autonomous driving. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
 {style="text-align: justify;"}
