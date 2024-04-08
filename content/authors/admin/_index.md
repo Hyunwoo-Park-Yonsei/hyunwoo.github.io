@@ -89,22 +89,19 @@ social:
   #    header: true 
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=H0Hcy5cAAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=ZNFiSLcAAAAJ&hl=en&authuser=1
   - icon: github
     icon_pack: fab
-    link: https://github.com/kr-jschoi
+    link: https://github.com/Hyunwoo-Park-Yonsei
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/jongseo-choi-997011159/
+    link: https://www.linkedin.com/in/hyun-woo-park-7b782a158/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
-  - icon: obp
-    icon_pack: ai
-    link: https://kr-jschoi.tistory.com/
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
