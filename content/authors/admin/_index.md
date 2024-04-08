@@ -38,7 +38,7 @@ interests:
 education:
   courses:
     - course: B.S. in Mechanical Engineering
-      institution: Yonsei Univercity, Seoul
+      institution: Yonsei University, South Korea
       year: 2022
 
 # Skills
