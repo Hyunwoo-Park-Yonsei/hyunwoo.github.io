@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Jongseo Choi
+title: Hyunwoo Park
 
 # Name pronunciation (optional)
-# name_pronunciation: Jongseo Choi
+# name_pronunciation: Hyunwoo Park
 
 # Full name (for SEO)
-first_name: Jongseo
-last_name: Choi
+first_name: Hyunwoo
+last_name: Park
 
 # Status emoji
 status:
@@ -30,18 +30,16 @@ bio: My research interests include motion planning for autonomous vehicles and r
 # Interests to show in About widget
 interests:
   - Motion Planning
+  - Reinforcement Learning
   - Autonomous vehicles
   - Robotics
 
 # Education to show in About widget
 education:
   courses:
-    - course: M.S. in Autonomous Software Engineering
-      institution: University of Technology, Germany
-      year: 2020
-    - course: B.S. in Electronic Engineering
-      institution: Chungbuk National University
-      year: 2015
+    - course: B.S. in Mechanical Engineering
+      institution: Yonsei Univercity, Seoul
+      year: 2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -107,5 +105,5 @@ social:
 highlight_name: true
 ---
 
-Jongseo Choi received the B.S. degree in Electronic Engineering from Chungbuk National University, South Korea, in 2015. He received the M.S. degree in Automotive Software Engineering from Chemnitz University of Technology, Germany, in 2020. He was  a quality engineer in the mechatronics quality department of Hyundai Mobis Co., Ltd., South Korea,  from 2015 to 2018. He worked with IAV Automotive Engineering, Inc., Germany, as an intern researcher  working on motion prediction for autonomous vehicles, from 2019 to 2020. Since 2020, he has been  with ThorDrive Co., Ltd, Seoul, South Korea, as a senior researcher working on motion planning for autonomous driving. His research interests include motion planning and motion prediction for autonomous vehicles and robotics.
+Jongseo Choi received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. Since 2022, he has been  with ThorDrive Co., Ltd, Seoul, South Korea, as a researcher working on motion planning for autonomous driving. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
 {style="text-align: justify;"}
