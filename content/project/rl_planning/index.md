@@ -3,7 +3,7 @@ title: Trajectory Planning for Autonomous Vehicle Using Iterative Reward Predict
 summary: published in arXiv in April 2024
 tags:
   - Autonomous Driving
-date: '2023-04-18T00:00:00Z'
+date: '2024-04-22T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 # external_link: ''
