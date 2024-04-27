@@ -20,7 +20,7 @@ image:
 #url_code: ''
 links:
 - name: arXiv
-  url: https://arxiv.org/pdf/2404.12079
+  url: https://arxiv.org/abs/2404.12079
 url_pdf: 'https://arxiv.org/pdf/2404.12079.pdf'
 #url_slides: ''
 url_video: 'https://www.youtube.com/watch?v=PfDbaeLfcN4'
