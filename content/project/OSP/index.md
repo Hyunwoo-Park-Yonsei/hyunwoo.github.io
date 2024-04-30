@@ -1,5 +1,5 @@
 ---
-title: An open-space planner using Hybrid A*.
+title: An open-space planner.
 summary: 
 tags:
   - Autonomous Driving
