@@ -33,11 +33,14 @@ url_video: 'https://youtu.be/TJo2pfhkxw4'
 #slides: example
 ---
 ### 🧾 Introduction
+- One of the key challenges in autonomous driving is safely navigating areas with occluded pedestrians and vehicles.
+- Prior methods used phantom vehicle generation to estimate risk but were often overly conservative or ineffective in real time under heavy occlusion.
+- To address this, we propose an efficient occlusion-aware risk assessment framework and a risk-adaptive speed control strategy.
 ### ⚙️ Method
+- The proposed method models phantom agents in occluded regions using a simplified probabilistic reachability distribution.
+- Based on the quantified risk of phantom agents, the system dynamically sets speed limits to enable safe yet efficient navigation.
+- The approach maintains constant-time complexity and is computationally efficient, requiring less than 5 ms per decision.
 ### ✅ Result
-
-One of the unresolved challenges for autonomous vehicles is safe navigation among occluded pedestrians and vehicles. Previous approaches included generating phantom vehicles and assessing their risk, but they often made the ego vehicle overly conservative or could not conduct a real-time risk assessment in heavily occluded situations. 
-
-We propose an efficient occlusion-aware risk assessment method using simplified reachability quantification that quantifies the reachability of phantom agents with a simple distribution model on phantom agents' state. Furthermore, we propose a driving strategy for safe and efficient navigation in occluded areas that sets the speed limit of an autonomous vehicle using the risk of phantom agents. 
-
-Simulations were conducted to evaluate the performance of the proposed method in various occlusion scenarios involving other vehicles and obstacles. Compared with the baseline case of no occlusion-aware risk assessment, the proposed method increased the traversal time of an intersection by 1.48 times but decreased the average collision rate and discomfort score by up to 6.14 times and 5.03 times, respectively. The proposed method has shown the state-of-the-art level of time efficiency with constant time complexity and computational time of less than 5 ms.
+- Simulation results show the proposed method increased intersection traversal time by 1.48×,
+but reduced average collision rate and discomfort score by 6.14× and 5.03×, respectively.
+- The method achieves state-of-the-art time efficiency while significantly improving safety and ride comfort in occluded scenarios.

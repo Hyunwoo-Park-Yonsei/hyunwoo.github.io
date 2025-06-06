@@ -33,12 +33,15 @@ url_video: 'https://youtu.be/7bhxfuhAqos'
 #slides: example
 ---
 ### 🧾 Introduction
+- B-spline-based trajectory optimization is effective in robotics due to its computational efficiency and convex-hull property, especially for quadrotors.
+- However, applying B-splines to autonomous vehicles (AVs) is challenging due to rectangular body shapes and kinodynamic constraints.
+- This study proposes a novel approach that overcomes these challenges for AV trajectory optimization.
 ### ⚙️ Method
+- The proposed method integrates three components: Incremental Path Flattening (IPF), a disc-type swept volume (SV) estimation, and kinodynamic feasibility constraints.
+- IPF flattens paths by increasing curvature penalties around collision areas, enabling collision-free path shaping.
+- A disc-type SV model reduces over-approximation and allows efficient navigation in narrow spaces.
+Clamped B-spline curvature constraints are introduced to ensure kinodynamic feasibility, including limits on velocity and acceleration.
 ### ✅ Result
-
-B-spline-based trajectory optimization is widely used for robot navigation due to its computational efficiency and convex-hull property (ensures dynamic feasibility), especially as quadrotors, which have circular body shapes (enable efficient movement) and freedom to move each axis (enables convex-hull property utilization). However, using the B-spline curve for trajectory optimization is challenging for autonomous vehicles (AVs) because of their vehicle kinodynamics (rectangular body shapes and constraints to move each axis). 
-
-In this study, we propose a novel trajectory optimization approach for AVs to circumvent this difficulty using an incremental path flattening (IPF), a disc type swept volume (SV) estimation method, and kinodynamic feasibility constraints. IPF is a new method that can find a collision-free path for AVs by flattening path and reducing SV using iteratively increasing curvature penalty around vehicle collision points. Additionally, we develop a disc type SV estimation method to reduce SV over-approximation and enable AVs to pass through a narrow corridor efficiently. Furthermore, a clamped B-spline curvature constraint, which simplifies a B-spline curvature constraint, is added to dynamical feasibility constraints (e.g., velocity and acceleration) for obtaining the kinodynamic feasibility constraints. 
-
-Our experimental results demonstrate that our method outperforms state-of-the-art baselines in various simulated environments. We also conducted a real-world experiment using an AV, and our results validate the simulated tracking performance of the proposed approach.
-
+- In simulation, the proposed method outperformed state-of-the-art baselines in path safety and efficiency.
+- Real-world experiments with an AV confirmed that the method’s tracking performance aligned with simulation results.
+- The approach proved effective in handling both collision avoidance and dynamic feasibility in constrained driving environments.

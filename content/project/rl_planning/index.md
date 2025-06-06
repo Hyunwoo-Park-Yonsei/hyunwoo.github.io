@@ -33,12 +33,14 @@ url_video: 'https://www.youtube.com/watch?v=PfDbaeLfcN4'
 #slides: example
 ---
 ### 🧾 Introduction
+- Traditional trajectory planning for autonomous vehicles often relies on heuristics or simple rules, which limit generalization and complex behavior handling.
+- Reinforcement learning (RL) has the potential to overcome these limitations, but suffers from instability and often ignores uncertainty during planning.
+- This work addresses both issues by proposing an uncertainty-aware RL-based trajectory planner.
 ### ⚙️ Method
+- The proposed method uses an iterative reward prediction framework, which forecasts expected future states and incorporates them into the learning process to improve training stability.
+- Additionally, it applies uncertainty propagation techniques to make the agent aware of environmental and model uncertainties during trajectory planning.
+- This dual approach improves both the robustness and adaptability of the RL agent.
 ### ✅ Result
-Traditional trajectory planning methods for autonomous vehicles have several limitations. For example, heuristic and explicit simple rules limit generalizability and hinder complex motions. These limitations can be addressed using reinforcement learning-based trajectory planning. However, reinforcement learning suffers from unstable learning and existing reinforcement learning-based trajectory planning methods do not consider the uncertainties. 
+- The method was evaluated in the CARLA simulator and compared with baseline RL planners.
+- It reduced the collision rate by 60.17% and increased the average reward by 30.82×, demonstrating significant improvements in both safety and performance.
 
-Thus, this paper, proposes a reinforcement learning-based trajectory planning method for autonomous vehicles. The proposed method involves an iterative reward prediction approach that iteratively predicts expectations of future states. These predicted states are then used to forecast rewards and integrated into the learning process to enhance stability. Additionally, a method is proposed that utilizes uncertainty propagation to make the reinforcement learning agent aware of uncertainties.
-
-The proposed method was evaluated using the CARLA simulator. Compared to the baseline methods, the proposed method reduced the collision rate by 60.17%, and increased the average reward by 30.82 times. 
-
-- dddd
