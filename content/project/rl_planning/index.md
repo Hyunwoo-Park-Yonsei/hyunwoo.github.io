@@ -32,9 +32,9 @@ url_video: 'https://www.youtube.com/watch?v=PfDbaeLfcN4'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-# Introduction
-# Method
-# Result
+### 🧾 Introduction
+### ⚙️ Method
+### ✅ Result
 Traditional trajectory planning methods for autonomous vehicles have several limitations. For example, heuristic and explicit simple rules limit generalizability and hinder complex motions. These limitations can be addressed using reinforcement learning-based trajectory planning. However, reinforcement learning suffers from unstable learning and existing reinforcement learning-based trajectory planning methods do not consider the uncertainties. 
 
 Thus, this paper, proposes a reinforcement learning-based trajectory planning method for autonomous vehicles. The proposed method involves an iterative reward prediction approach that iteratively predicts expectations of future states. These predicted states are then used to forecast rewards and integrated into the learning process to enhance stability. Additionally, a method is proposed that utilizes uncertainty propagation to make the reinforcement learning agent aware of uncertainties.

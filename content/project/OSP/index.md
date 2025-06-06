@@ -29,7 +29,6 @@ url_video: 'https://youtu.be/ZvOuJ3Kb-jg'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-# Introduction
-# Method
-# Result
-
+### 🧾 Introduction
+### ⚙️ Method
+### ✅ Result

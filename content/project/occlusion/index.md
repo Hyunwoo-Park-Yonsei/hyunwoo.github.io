@@ -32,9 +32,9 @@ url_video: 'https://youtu.be/TJo2pfhkxw4'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-# Introduction
-# Method
-# Result
+### 🧾 Introduction
+### ⚙️ Method
+### ✅ Result
 
 One of the unresolved challenges for autonomous vehicles is safe navigation among occluded pedestrians and vehicles. Previous approaches included generating phantom vehicles and assessing their risk, but they often made the ego vehicle overly conservative or could not conduct a real-time risk assessment in heavily occluded situations. 
 

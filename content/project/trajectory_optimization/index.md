@@ -32,9 +32,9 @@ url_video: 'https://youtu.be/7bhxfuhAqos'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-# Introduction
-# Method
-# Result
+### 🧾 Introduction
+### ⚙️ Method
+### ✅ Result
 
 B-spline-based trajectory optimization is widely used for robot navigation due to its computational efficiency and convex-hull property (ensures dynamic feasibility), especially as quadrotors, which have circular body shapes (enable efficient movement) and freedom to move each axis (enables convex-hull property utilization). However, using the B-spline curve for trajectory optimization is challenging for autonomous vehicles (AVs) because of their vehicle kinodynamics (rectangular body shapes and constraints to move each axis). 
 
