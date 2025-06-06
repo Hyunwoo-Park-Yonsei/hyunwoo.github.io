@@ -1,6 +1,6 @@
 ---
 title: Trajectory Planning for Autonomous Vehicle Using Iterative Reward Prediction in Reinforcement Learning
-summary: published in arXiv (submitted in RA-L) in April 2024
+summary: published in arXiv in April 2024
 tags:
   - Autonomous Driving
 date: '2024-04-22T00:00:00Z'
