@@ -16,11 +16,7 @@ url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 
 ---
 # Avoiding static obstacles
-<!-- ![alt](test.jpg) -->
-![alt](detour.gif)
-aa
-<!-- ![alt](/images/test.jpg)
-![alt](/images/detour.gif) -->
+![alt](shift.gif)
 ### 🧾 Introduction
 - In autonomous driving systems, it is essential to implement avoidance behavior for static obstacles.
 - Static obstacles refer to non-moving objects such as parked vehicles, median strips, and traffic cones.
@@ -33,7 +29,7 @@ aa
 - Even under sensor uncertainty, the vehicle demonstrated robust and safe behavior during navigation.
 - This decision strategy balances caution and responsiveness, allowing the system to remain safely proactive without frequent shifts in behavior, which in turn helps maintain ride comfort and operational stability.
 # Overtaking Parked Cars
-<!-- ![Overtaking Demo](/images/detour.gif) -->
+![alt](detour.gif)
 ### 🧾 Introduction
 - This task addresses the need for overtaking parked vehicles or static objects that are illegally stopped or obstructing the lane.
 - Unlike static obstacle avoidance, this task requires crossing lane boundaries, which introduces additional risk from vehicles approaching from the adjacent lane.
