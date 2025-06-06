@@ -13,13 +13,6 @@ image:
   focal_point: Smart
 
 url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
-
-<ul>
-  {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
-
 ---
 # Avoiding static obstacles
 # Overtaking Parked Cars
