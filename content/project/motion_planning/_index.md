@@ -15,6 +15,11 @@ image:
 url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 
 ---
+
+{{ range .Pages }}
+- [{{ .Title }}]({{ .RelPermalink }})
+{{ end }}
+
 <!-- # Avoiding static obstacles
 # Overtaking Parked Cars
 # Emergent Collision Avoidance -->
