@@ -1,6 +1,6 @@
 ---
 title: Occlusion-aware Risk Assessment and Driving Strategy for Autonomous Vehicles Using Simplified Reachability Quantification
-summary: published in RA-L in Nov 2023
+summary: Published in RA-L in Nov 2023. Trajectory planning method for autonomous vehicle under occluded area. 
 tags:
   - Autonomous Driving
 date: '2023-11-02T00:00:00Z'
