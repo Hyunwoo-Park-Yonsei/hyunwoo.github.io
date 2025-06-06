@@ -17,6 +17,7 @@ url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 ---
 # Avoiding static obstacles
 ![alt](shift.gif)
+[Watch Full Video](https://www.youtube.com/watch?v=E3yA_bpkHbg)
 ### 🧾 Introduction
 - In autonomous driving systems, it is essential to implement avoidance behavior for static obstacles.
 - Static obstacles refer to non-moving objects such as parked vehicles, median strips, and traffic cones.
@@ -30,6 +31,7 @@ url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 - This decision strategy balances caution and responsiveness, allowing the system to remain safely proactive without frequent shifts in behavior, which in turn helps maintain ride comfort and operational stability.
 # Overtaking Parked Cars
 ![alt](detour.gif)
+[Watch Full Video](https://www.youtube.com/watch?v=m6aqP3xJUOE)
 ### 🧾 Introduction
 - This task addresses the need for overtaking parked vehicles or static objects that are illegally stopped or obstructing the lane.
 - Unlike static obstacle avoidance, this task requires crossing lane boundaries, which introduces additional risk from vehicles approaching from the adjacent lane.
@@ -44,6 +46,8 @@ url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 - It demonstrated the ability to safely merge into and return from adjacent lanes while avoiding conflicts with moving traffic.
 - This resulted in robust and stable overtaking behavior, even in complex urban driving scenarios.
 # Emergent Collision Avoidance
+![alt](eca.gif)
+[Watch Full Video](https://www.youtube.com/watch?v=p4HAh_HgGjI)
 ### 🧾 Introduction
 
 - The Emergent Collision Avoidance (ECA) module is an independent safety mechanism designed to operate when primary autonomous driving modules malfunction or behave abnormally.

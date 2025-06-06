@@ -1,6 +1,6 @@
 ---
 title: An open-space planner.
-summary: 
+summary: Reference Planner for unstructured environments.
 tags:
   - Autonomous Driving
 date: '2022-08-29T00:00:00Z'
@@ -29,6 +29,8 @@ url_video: 'https://youtu.be/ZvOuJ3Kb-jg'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+![alt](osp.gif)
+[Watch Full Video](https://www.youtube.com/watch?v=m6aqP3xJUOE)
 ### 🧾 Introduction
 - The Open Space Planner (OSP) module was developed for autonomous path planning in unstructured environments such as parking lots or areas without lane markings.
 - It is based on the method proposed in ["Autonomous Driving Trajectory Optimization With Dual-Loop Iterative Anchoring Path Smoothing and Piecewise-Jerk Speed Optimization"](https://ieeexplore.ieee.org/abstract/document/9300224).
