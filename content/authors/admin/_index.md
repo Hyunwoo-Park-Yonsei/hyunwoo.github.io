@@ -9,15 +9,11 @@ title: Hyunwoo Park
 first_name: Hyunwoo
 last_name: Park
 
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Motion Planning Engineer
+role: Motion Planning Engineer, Autonomous Driving
 
 # Organizations/Affiliations to show in About widget
 organizations:

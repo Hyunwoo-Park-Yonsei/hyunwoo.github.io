@@ -5,11 +5,11 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: '#intro'
     weight: 10
-  #- name: Posts
-  #  url: '#posts'
-  #  weight: 20
+  - name: Profile
+    url: '#about'
+    weight: 20
   - name: Projects
     url: '#projects'
     weight: 30
@@ -19,6 +19,9 @@ main:
   - name: Publications
     url: '#publications'
     weight: 50
+  - name: CV
+    url: uploads/CV-6.pdf
+    weight: 60
   #- name: Contact
   #  url: '#contact'
   #  weight: 60

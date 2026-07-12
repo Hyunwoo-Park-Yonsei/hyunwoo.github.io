@@ -9,10 +9,10 @@ authors:
 - Sanghyun Lee
 - Doosan Baek
 date: '2023-01-01'
-publishDate: '2023-12-03T14:19:19.045417Z'
+publishDate: '2024-12-03T14:19:19.045417Z'
 publication_types:
 - article-journal
-publication: '*arXiv preprint arXiv:2311.02957*'
+publication: '*IEEE Transactions on Intelligent Transportation Systems*'
 
 links:
 - name: Link

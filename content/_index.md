@@ -5,37 +5,75 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+  - block: markdown
+    id: intro
     content:
-      title: Hugo Academic Theme
-      image:
-        filename: hero-academic.png
-      cta:
-        label: '**Get Started**'
-        url: https://hugoblox.com/templates/
-      cta_alt:
-        label: Ask a question
-        url: https://discord.gg/z8wNYzb
-      cta_note:
-        label: >-
-          <div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star the Academic template</a></div>
+      title: ''
       text: |-
-        <!--Custom spacing-->
-        <div class="mb-3"></div>
-        <!--GitHub Button JS-->
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <section class="home-hero">
+          <div class="home-hero__copy">
+            <p class="eyebrow">Motion Planning Engineer</p>
+            <h1>Hyunwoo Park</h1>
+            <p class="lead">I design safety-aware motion planning and trajectory optimization systems for autonomous vehicles, connecting research prototypes with real-world driving constraints.</p>
+            <div class="home-hero__actions">
+              <a class="btn btn-primary btn-lg" href="#projects">View Projects</a>
+              <a class="btn btn-outline-primary btn-lg" href="uploads/CV-6.pdf">Download CV</a>
+            </div>
+            <div class="home-hero__proof" aria-label="Research highlights">
+              <div>
+                <strong>RA-L / T-ITS</strong>
+                <span>Published autonomous driving research</span>
+              </div>
+              <div>
+                <strong>CARLA + Vehicle</strong>
+                <span>Simulation and real-world validation</span>
+              </div>
+              <div>
+                <strong>Planning Stack</strong>
+                <span>Risk, optimization, and RL-based methods</span>
+              </div>
+            </div>
+          </div>
+          <figure class="home-hero__media">
+            <img src="media/hero-trajectory.jpg" alt="Trajectory optimization simulation for an autonomous vehicle">
+            <figcaption>
+              <span>Featured work</span>
+              <strong>Safe trajectory optimization in constrained environments</strong>
+            </figcaption>
+          </figure>
+        </section>
     design:
-      background:
-        gradient_end: '#1976d2'
-        gradient_start: '#004ba0'
-        text_color_light: true
+      columns: '1'
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: Profile
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: markdown
+    id: focus
+    content:
+      title: Research Focus
+      text: |-
+        <div class="focus-grid">
+          <article>
+            <span>01</span>
+            <h3>Occlusion-aware risk assessment</h3>
+            <p>Quantifying hidden-agent risk so autonomous vehicles can drive safely without becoming overly conservative.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Trajectory optimization</h3>
+            <p>Generating smooth, dynamically feasible paths for tight and uncertain driving environments.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Reinforcement learning planning</h3>
+            <p>Improving planner adaptability through uncertainty-aware reward prediction and simulation feedback.</p>
+          </article>
+        </div>
+    design:
+      columns: '1'
 #  - block: skills
 #    content:
 #      title: Skills
@@ -151,7 +189,8 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Selected Projects
+      subtitle: Autonomous driving systems, planning algorithms, and research implementations
       filters:
         folders:
           - project
@@ -197,7 +236,8 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Recent Publications
+      title: Selected Publications
+      subtitle: Peer-reviewed papers and preprints on autonomous vehicle planning
 #      text: |-
 #        {{% callout note %}}
 #        Quickly discover relevant content by [filtering publications](./publication/).
