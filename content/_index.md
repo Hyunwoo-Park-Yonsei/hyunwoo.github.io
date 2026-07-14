@@ -14,7 +14,7 @@ sections:
           <div class="home-hero__copy">
             <p class="eyebrow">Motion Planning Engineer</p>
             <h1>Hyunwoo Park</h1>
-            <p class="lead">I'm motion planning enginner capable of classic serach methods, trajectory optimization, uncertainty-aware planning, and learning-based planning. </p>
+            <p class="lead">I'm a motion planning engineer specializing in classical search methods, trajectory optimization, uncertainty-aware planning, and learning-based planning.</p>
             <div class="home-hero__actions">
               <a class="btn btn-primary btn-lg" href="#projects">View Projects</a>
               <a class="btn btn-outline-primary btn-lg" href="uploads/CV-6.pdf">Download CV</a>
@@ -33,7 +33,7 @@ sections:
                 <span>Hybrid A*, RRT*, and jerk-minimized trajectory generation for structured and open-space driving</span>
               </div>
               <div>
-                <strong>Simulation and the Real World Validation</strong>
+                <strong>Simulation and Real-World Validation</strong>
                 <span>CARLA evaluation and real-vehicle testing on public-road and airport-apron scenarios</span>
               </div>
               <div>
