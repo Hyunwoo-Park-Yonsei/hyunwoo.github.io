@@ -17,7 +17,7 @@ url_video: 'https://www.youtube.com/watch?v=F0yPtwk7-Ww'
 ---
 # Avoiding Static Obstacles
 ![alt](shift.gif)
-[Watch Full Video](https://www.youtube.com/watch?v=E3yA_bpkHbg)
+[Watch Full Video](https://www.youtube.com/watch?v=0tRZIa5q0tU)
 ### Introduction
 - In autonomous driving systems, it is essential to implement avoidance behavior for static obstacles.
 - Static obstacles refer to non-moving objects such as parked vehicles, median strips, and traffic cones.

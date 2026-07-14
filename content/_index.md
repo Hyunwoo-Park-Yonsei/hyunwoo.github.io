@@ -22,12 +22,16 @@ sections:
           </div>
           <div class="home-hero__proof" aria-label="Research highlights">
             <div>
-              <strong>Uncertainty-Aware Planning</strong>
-              <span>Occlusion reachability, uncertainty propagation, and robust behavior under perception limits</span>
+              <strong>Sim-to-Real Adaptation</strong>
+              <span>Adaptive imagination, domain adaptation, visual RL, and state-image representation learning</span>
             </div>
             <div>
               <strong>Optimization-Based Planning</strong>
               <span>B-splines, SQP, swept-volume constraints, and kinodynamic feasibility for smooth AV trajectories</span>
+            </div>
+            <div>
+              <strong>Uncertainty-Aware Planning</strong>
+              <span>Occlusion reachability, uncertainty propagation, and robust behavior under perception limits</span>
             </div>
             <div>
               <strong>Search-Based Planning</strong>
@@ -37,10 +41,7 @@ sections:
               <strong>Simulation and Real-World Validation</strong>
               <span>CARLA evaluation and real-vehicle testing on public-road and airport-apron scenarios</span>
             </div>
-            <div>
-              <strong>Sim-to-Real Adaptation</strong>
-              <span>Adaptive imagination, domain adaptation, visual RL, and state-image representation learning</span>
-            </div>
+
           </div>
         </section>
     design:
