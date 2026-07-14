@@ -17,8 +17,8 @@ role: Motion Planning Engineer, Autonomous Driving
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ThorDrive
-    url: https://www.thordrive.ai/
+  - name: StradVision
+    url: https://stradvision.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include motion planning for autonomous vehicles and robotics.
@@ -98,5 +98,5 @@ social:
 highlight_name: true
 ---
 
-Hyunwoo Park received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. Since 2022, he has been  with ThorDrive Co., Ltd, Seoul, South Korea, as a researcher working on motion planning for autonomous driving. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
+Hyunwoo Park received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. He previously worked at ThorDrive Co., Ltd. in Seoul, South Korea, as a researcher specializing in motion planning for autonomous driving. He is currently a motion planning engineer at StradVision. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
 {style="text-align: justify;"}
