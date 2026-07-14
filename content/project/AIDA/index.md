@@ -16,7 +16,8 @@ image:
 ### Introduction
 - Sim-to-real transfer for visual reinforcement learning is difficult because image observations create state-distribution shift between simulation and target environments.
 - Prior domain adaptation methods often require large target datasets or image-based RL training, which is expensive and impractical when real-world data is scarce.
-- AIDA targets cross-modality adaptation: a source policy is trained with low-dimensional simulator states, while the target domain provides only image observations and limited pre-collected trajectories.
+- AIDA targets a practical cross-modality setting: low-dimensional simulator states enable efficient policy training with privileged information, whereas real-world deployment often has access only to high-dimensional camera observations. Bridging these modalities makes it possible to retain the efficiency of state-based training without requiring equivalent state measurements on the target system.
+- To overcome the limited target data, AIDA uses adaptive imagination to generate reliable, policy-conditioned synthetic trajectories from the available target observations, expanding the adaptation signal without additional interaction with the target environment.
 
 ### Method
 - AIDA first trains a state-based policy and dynamics model in the source domain, then freezes them during target-domain adaptation.
