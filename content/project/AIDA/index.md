@@ -12,7 +12,6 @@ image:
   focal_point: Smart
 
 ---
-![AIDA overview](featured.png)
 
 ### Introduction
 - Sim-to-real transfer for visual reinforcement learning is difficult because image observations create state-distribution shift between simulation and target environments.

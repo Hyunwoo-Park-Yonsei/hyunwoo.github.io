@@ -19,32 +19,29 @@ sections:
               <a class="btn btn-primary btn-lg" href="#projects">View Projects</a>
               <a class="btn btn-outline-primary btn-lg" href="uploads/CV-6.pdf">Download CV</a>
             </div>
-            <div class="home-hero__proof" aria-label="Research highlights">
-              <div>
-                <strong>Uncertainty-Aware Planning</strong>
-                <span>Occlusion reachability, uncertainty propagation, and robust behavior under perception limits</span>
-              </div>
-              <div>
-                <strong>Optimization-Based Planning</strong>
-                <span>B-splines, SQP, swept-volume constraints, and kinodynamic feasibility for smooth AV trajectories</span>
-              </div>
-              <div>
-                <strong>Search-Based Planning</strong>
-                <span>Hybrid A*, RRT*, and jerk-minimized trajectory generation for structured and open-space driving</span>
-              </div>
-              <div>
-                <strong>Simulation and Real-World Validation</strong>
-                <span>CARLA evaluation and real-vehicle testing on public-road and airport-apron scenarios</span>
-              </div>
-              <div>
-                <strong>Sim-to-Real Adaptation</strong>
-                <span>Adaptive imagination, domain adaptation, visual RL, and state-image representation learning</span>
-              </div>
+          </div>
+          <div class="home-hero__proof" aria-label="Research highlights">
+            <div>
+              <strong>Uncertainty-Aware Planning</strong>
+              <span>Occlusion reachability, uncertainty propagation, and robust behavior under perception limits</span>
+            </div>
+            <div>
+              <strong>Optimization-Based Planning</strong>
+              <span>B-splines, SQP, swept-volume constraints, and kinodynamic feasibility for smooth AV trajectories</span>
+            </div>
+            <div>
+              <strong>Search-Based Planning</strong>
+              <span>Hybrid A*, RRT*, and jerk-minimized trajectory generation for structured and open-space driving</span>
+            </div>
+            <div>
+              <strong>Simulation and Real-World Validation</strong>
+              <span>CARLA evaluation and real-vehicle testing on public-road and airport-apron scenarios</span>
+            </div>
+            <div>
+              <strong>Sim-to-Real Adaptation</strong>
+              <span>Adaptive imagination, domain adaptation, visual RL, and state-image representation learning</span>
             </div>
           </div>
-          <figure class="home-hero__media">
-            <img src="media/hero-trajectory.jpg" alt="Trajectory optimization simulation for an autonomous vehicle">
-          </figure>
         </section>
     design:
       columns: '1'
@@ -62,8 +59,8 @@ sections:
         <div class="focus-grid">
           <article>
             <span>01</span>
-            <h3>Occlusion-aware risk assessment</h3>
-            <p>Quantifying hidden-agent risk so autonomous vehicles can drive safely without becoming overly conservative.</p>
+            <h3>Uncertainty-aware motion planning</h3>
+            <p>Planning safe, robust vehicle motion by accounting for perception uncertainty, occlusions, and uncertain agent behavior.</p>
           </article>
           <article>
             <span>02</span>

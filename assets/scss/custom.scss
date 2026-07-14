@@ -205,46 +205,6 @@ body.dark .home-hero__proof div,
   line-height: 1.45;
 }
 
-.home-hero__media {
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid var(--portfolio-line);
-  border-radius: 8px;
-  background: var(--portfolio-surface);
-  box-shadow: var(--portfolio-shadow);
-}
-
-.home-hero__media img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-}
-
-.home-hero__media figcaption {
-  padding: 1rem 1.15rem;
-  border-top: 1px solid var(--portfolio-line);
-  background: var(--portfolio-surface);
-}
-
-.home-hero__media figcaption span,
-.home-hero__media figcaption strong {
-  display: block;
-}
-
-.home-hero__media figcaption span {
-  margin-bottom: 0.25rem;
-  color: var(--portfolio-warm);
-  font-size: 0.86rem;
-  font-weight: 800;
-}
-
-.home-hero__media figcaption strong {
-  color: var(--portfolio-ink);
-  font-size: 1.02rem;
-  line-height: 1.35;
-}
-
 .section-heading h1,
 .section-heading h2 {
   color: var(--portfolio-ink);
