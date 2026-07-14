@@ -98,5 +98,5 @@ social:
 highlight_name: true
 ---
 
-Hyunwoo Park received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. He previously worked at ThorDrive Co., Ltd. in Seoul, South Korea, as a researcher specializing in motion planning for autonomous driving. He is currently a motion planning engineer at StradVision. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
+Hyunwoo Park received the B.S. degree in Mechanical Engineering from Yonsei University, South Korea, in 2022. From 2022 to 2026, he worked at ThorDrive Co., Ltd. in Seoul, South Korea, as a researcher specializing in motion planning for autonomous driving. He then joined StradVision as a motion planning engineer. His research interests include motion planning and reinforcement learning for autonomous vehicles and robotics.
 {style="text-align: justify;"}
