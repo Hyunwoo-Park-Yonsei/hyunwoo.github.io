@@ -14,32 +14,36 @@ sections:
           <div class="home-hero__copy">
             <p class="eyebrow">Motion Planning Engineer</p>
             <h1>Hyunwoo Park</h1>
-            <p class="lead">I design safety-aware motion planning and trajectory optimization systems for autonomous vehicles, connecting research prototypes with real-world driving constraints.</p>
+            <p class="lead">I'm motion planning enginner capable of classic serach methods, trajectory optimization, uncertainty-aware planning, and learning-based planning. </p>
             <div class="home-hero__actions">
               <a class="btn btn-primary btn-lg" href="#projects">View Projects</a>
               <a class="btn btn-outline-primary btn-lg" href="uploads/CV-6.pdf">Download CV</a>
             </div>
             <div class="home-hero__proof" aria-label="Research highlights">
               <div>
-                <strong>RA-L / T-ITS</strong>
-                <span>Published autonomous driving research</span>
+                <strong>Uncertainty-Aware Planning</strong>
+                <span>Occlusion reachability, uncertainty propagation, and robust behavior under perception limits</span>
               </div>
               <div>
-                <strong>CARLA + Vehicle</strong>
-                <span>Simulation and real-world validation</span>
+                <strong>Optimization-Based Planning</strong>
+                <span>B-splines, SQP, swept-volume constraints, and kinodynamic feasibility for smooth AV trajectories</span>
               </div>
               <div>
-                <strong>Planning Stack</strong>
-                <span>Risk, optimization, and RL-based methods</span>
+                <strong>Search-Based Planning</strong>
+                <span>Hybrid A*, RRT*, and jerk-minimized trajectory generation for structured and open-space driving</span>
+              </div>
+              <div>
+                <strong>Simulation and the Real World Validation</strong>
+                <span>CARLA evaluation and real-vehicle testing on public-road and airport-apron scenarios</span>
+              </div>
+              <div>
+                <strong>Sim-to-Real Adaptation</strong>
+                <span>Adaptive imagination, domain adaptation, visual RL, and state-image representation learning</span>
               </div>
             </div>
           </div>
           <figure class="home-hero__media">
             <img src="media/hero-trajectory.jpg" alt="Trajectory optimization simulation for an autonomous vehicle">
-            <figcaption>
-              <span>Featured work</span>
-              <strong>Safe trajectory optimization in constrained environments</strong>
-            </figcaption>
           </figure>
         </section>
     design:
