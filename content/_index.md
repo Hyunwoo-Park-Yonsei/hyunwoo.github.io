@@ -59,8 +59,8 @@ sections:
         <div class="focus-grid">
           <article>
             <span>01</span>
-            <h3>Uncertainty-aware motion planning</h3>
-            <p>Planning safe, robust vehicle motion by accounting for perception uncertainty, occlusions, and uncertain agent behavior.</p>
+            <h3>Reinforcement learning/sim-to-real</h3>
+            <p>Developing reinforcement learning methods that adapt policies from simulation to real-world environments under visual and data constraints.</p>
           </article>
           <article>
             <span>02</span>
@@ -69,8 +69,8 @@ sections:
           </article>
           <article>
             <span>03</span>
-            <h3>Reinforcement learning planning</h3>
-            <p>Improving planner adaptability through uncertainty-aware reward prediction and simulation feedback.</p>
+            <h3>Uncertainty-aware motion planning</h3>
+            <p>Planning safe, robust vehicle motion by accounting for perception uncertainty and occlusions.</p>
           </article>
         </div>
     design:

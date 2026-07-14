@@ -95,9 +95,8 @@ body.dark #intro.home-section,
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.86fr);
-  align-items: center;
-  gap: 3.5rem;
+  grid-template-columns: 1fr;
+  gap: 2.1rem;
 }
 
 .home-hero__copy {
@@ -131,7 +130,7 @@ body.dark #intro.home-section,
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-bottom: 2.1rem;
+  margin-bottom: 0;
 }
 
 .btn {
