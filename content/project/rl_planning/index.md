@@ -23,7 +23,7 @@ links:
   url: https://arxiv.org/abs/2404.12079v4
 url_pdf: 'https://arxiv.org/pdf/2404.12079v4.pdf'
 #url_slides: ''
-url_video: 'https://www.youtube.com/watch?v=PfDbaeLfcN4'
+url_video: 'https://www.youtube.com/watch?v=u-024Z04Onk'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
